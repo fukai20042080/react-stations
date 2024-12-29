@@ -1,7 +1,9 @@
-// @ts-check
+import './Header.css';
 
-export const Header = () => {
-  return <></>
-}
+const Header = () => (
+  <header className="header">
+    <h1 className="header-title">Dogアプリ</h1>
+  </header>
+);
 
-export default Header
+export default Header;
